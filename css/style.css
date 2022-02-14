@@ -1607,7 +1607,7 @@ ul.timeline {
 
 #team {
 	padding:100px 0px 130px;
-	background: #FFF;
+	background: rgb(154, 173, 196);
 }
 
 .team-items {
@@ -1674,11 +1674,11 @@ ul.timeline {
 	width: 30px;
 	line-height: 30px;
 	border-radius: 50%;
-	-webkit-transition: all 0.7s ease-in-out;
-	-moz-transition: all 0.7s ease-in-out;
-	-ms-transition: all 0.7s ease-in-out;
-	-o-transition: all 0.7s ease-in-out;
-	transition: all 0.7s ease-in-out;
+	-webkit-transition: all 0.8s ease-in-out;
+	-moz-transition: all 0.8s ease-in-out;
+	-ms-transition: all 0.8s ease-in-out;
+	-o-transition: all 0.8s ease-in-out;
+	transition: all 0.8s ease-in-out;
 
 }
 
