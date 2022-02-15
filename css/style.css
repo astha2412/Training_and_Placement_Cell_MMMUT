@@ -8,7 +8,8 @@ html, body {
 	padding: 0;
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
+	/* font-size: 14px; */
+	font-size: 65%;
 	line-height: 1;
 	font-weight: 400;
 	border: none;
@@ -639,8 +640,13 @@ section {
 /*-----------------------------------------------------------------*/
 /* Navigation
 /*-----------------------------------------------------------------*/
+#sp{
+	font-size: 4rem; font-weight:1000; color: aliceblue;
+}
 
-
+#im{
+	height: 20rem; width: 20rem;
+}
 #header {
 	top: 0;
 	z-index: 500;
@@ -669,6 +675,8 @@ section {
 	position: relative;
 }
 
+
+
 #main-menu ul li a {
 	display: inline-block;
 	padding:6px 10px;
@@ -682,6 +690,7 @@ section {
 
 #main-menu ul li a:hover {
 	color:#FFF;
+	box-shadow: inset 0 -2px 0 #FFF;
 }
 
 #main-menu ul.nav>li>a:hover, #main-menu ul.nav>li>a:focus {
@@ -2918,7 +2927,26 @@ footer {
 #main-menu {
 	background:#202020;
 }
-	 
+
+@media (max-width: 800px) {
+	#sp{
+		font-size: 1.8rem; font-weight:800; 
+	}
+	#im{
+		height: 13rem; width: 13rem;
+	}
+}
+	
+/* @media (min-width: 400px max-width: 800px)a {
+	#sp{
+		font-size: 2rem; font-weight:800; 
+	}
+	#im{
+		height: 13rem; width: 13rem;
+	}
+} */
+
+
  .navbar-right {
  float:none !important;
  margin-right:0px !important;
