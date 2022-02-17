@@ -8,7 +8,8 @@ html, body {
 	padding: 0;
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
+	/* font-size: 14px; */
+	font-size: 65%;
 	line-height: 1;
 	font-weight: 400;
 	border: none;
@@ -639,8 +640,41 @@ section {
 /*-----------------------------------------------------------------*/
 /* Navigation
 /*-----------------------------------------------------------------*/
+#text1{
+	font-size: 4rem; font-weight:1000; color: rgb(232, 232, 241);
+	font-family: "Secular One";
+	animation-timing-function: ease-in;
+	animation-name: show;
+	animation-duration: 2s;
+	animation-iteration-count: 2;
+}
 
+#text2{
+	font-size: 3rem; font-weight:1000; color: aliceblue;
+	align-self: center;
+	font-family: "Secular One";
+	animation-timing-function: ease-in;
+	animation-name: show;
+	animation-duration: 2s;
+	animation-iteration-count: 2;
+}
+#text3{
+	font-size: 3rem; font-weight:1000; color: aliceblue;
+	font-family: "Secular One";
+	animation-timing-function: ease-in;
+	animation-name: show;
+	animation-duration: 2s;
+	animation-iteration-count: 2;
+}
 
+#im{
+	height: 20rem; width: 20rem;
+	margin-top: -12rem;
+	animation-timing-function: ease-in;
+	animation-name: showimg;
+	animation-duration: 2s;
+	animation-iteration-count: 2;
+}
 #header {
 	top: 0;
 	z-index: 500;
@@ -669,6 +703,8 @@ section {
 	position: relative;
 }
 
+
+
 #main-menu ul li a {
 	display: inline-block;
 	padding:6px 10px;
@@ -682,6 +718,7 @@ section {
 
 #main-menu ul li a:hover {
 	color:#FFF;
+	box-shadow: inset 0 -2px 0 #FFF;
 }
 
 #main-menu ul.nav>li>a:hover, #main-menu ul.nav>li>a:focus {
@@ -2918,7 +2955,33 @@ footer {
 #main-menu {
 	background:#202020;
 }
-	 
+
+@media (max-width: 750px) {
+	#text1{
+		font-size: 2.5rem; font-weight:800; 
+	}
+	#im{
+		height: 13rem; width: 13rem;
+	}
+	#text2{
+		font-size: 2rem;
+	}
+	#text3{
+		font-size: 2rem;
+	}
+	
+}
+	
+/* @media (min-width: 400px max-width: 800px)a {
+	#sp{
+		font-size: 2rem; font-weight:800; 
+	}
+	#im{
+		height: 13rem; width: 13rem;
+	}
+} */
+
+
  .navbar-right {
  float:none !important;
  margin-right:0px !important;
@@ -2940,14 +3003,14 @@ footer {
 #main-menu ul li a {
     line-height: 23px;
     display: inherit;
-    border-bottom: 1px solid #2C2C2C;
+    border-bottom: 1px solid #968181;
     padding: 5px 20px;
 	background:transparent;
 }
 
 #main-menu ul li a:hover, #main-menu ul li.active a {
 	background:#2C2C2C !important;
-	color:#FFF;
+	color:rgb(245, 237, 237);
 }
 
 #main-menu ul li.active > a {
@@ -2955,4 +3018,22 @@ footer {
 }
 
 
+}
+.placecol{
+	color: #000 !important;
+}
+@keyframes show{
+	0%{
+		color: #000;
+	}
+	100%{
+		color: whitesmoke;
+	}
+}
+@keyframes showimg{
+	25%{
+		display: none;}
+	100%{
+		display: block;
+	}
 }
