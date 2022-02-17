@@ -2969,6 +2969,7 @@ footer {
 	#text3{
 		font-size: 2rem;
 	}
+	
 }
 	
 /* @media (min-width: 400px max-width: 800px)a {
@@ -3002,14 +3003,14 @@ footer {
 #main-menu ul li a {
     line-height: 23px;
     display: inherit;
-    border-bottom: 1px solid #2C2C2C;
+    border-bottom: 1px solid #968181;
     padding: 5px 20px;
 	background:transparent;
 }
 
 #main-menu ul li a:hover, #main-menu ul li.active a {
 	background:#2C2C2C !important;
-	color:#FFF;
+	color:rgb(245, 237, 237);
 }
 
 #main-menu ul li.active > a {
@@ -3018,9 +3019,11 @@ footer {
 
 
 }
-
+.placecol{
+	color: #000 !important;
+}
 @keyframes show{
-	25%{
+	0%{
 		color: #000;
 	}
 	100%{
