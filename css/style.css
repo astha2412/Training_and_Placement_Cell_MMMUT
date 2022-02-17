@@ -640,12 +640,40 @@ section {
 /*-----------------------------------------------------------------*/
 /* Navigation
 /*-----------------------------------------------------------------*/
-#sp{
-	font-size: 4rem; font-weight:1000; color: aliceblue;
+#text1{
+	font-size: 4rem; font-weight:1000; color: rgb(232, 232, 241);
+	font-family: "Secular One";
+	animation-timing-function: ease-in;
+	animation-name: show;
+	animation-duration: 2s;
+	animation-iteration-count: 2;
+}
+
+#text2{
+	font-size: 3rem; font-weight:1000; color: aliceblue;
+	align-self: center;
+	font-family: "Secular One";
+	animation-timing-function: ease-in;
+	animation-name: show;
+	animation-duration: 2s;
+	animation-iteration-count: 2;
+}
+#text3{
+	font-size: 3rem; font-weight:1000; color: aliceblue;
+	font-family: "Secular One";
+	animation-timing-function: ease-in;
+	animation-name: show;
+	animation-duration: 2s;
+	animation-iteration-count: 2;
 }
 
 #im{
 	height: 20rem; width: 20rem;
+	margin-top: -12rem;
+	animation-timing-function: ease-in;
+	animation-name: showimg;
+	animation-duration: 2s;
+	animation-iteration-count: 2;
 }
 #header {
 	top: 0;
@@ -2928,12 +2956,18 @@ footer {
 	background:#202020;
 }
 
-@media (max-width: 800px) {
-	#sp{
-		font-size: 1.8rem; font-weight:800; 
+@media (max-width: 750px) {
+	#text1{
+		font-size: 2.5rem; font-weight:800; 
 	}
 	#im{
 		height: 13rem; width: 13rem;
+	}
+	#text2{
+		font-size: 2rem;
+	}
+	#text3{
+		font-size: 2rem;
 	}
 }
 	
@@ -2983,4 +3017,20 @@ footer {
 }
 
 
+}
+
+@keyframes show{
+	25%{
+		color: #000;
+	}
+	100%{
+		color: whitesmoke;
+	}
+}
+@keyframes showimg{
+	25%{
+		display: none;}
+	100%{
+		display: block;
+	}
 }
