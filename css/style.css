@@ -647,6 +647,8 @@ section {
 	animation-name: show;
 	animation-duration: 2s;
 	animation-iteration-count: 2;
+	animation-delay: 0.5s;
+	text-shadow: black 5px 0 15px;
 }
 
 #text2{
@@ -657,6 +659,8 @@ section {
 	animation-name: show;
 	animation-duration: 2s;
 	animation-iteration-count: 2;
+	animation-delay: 0.5s;
+	text-shadow: black 5px 0 15px;
 }
 #text3{
 	font-size: 3rem; font-weight:1000; color: aliceblue;
@@ -665,15 +669,19 @@ section {
 	animation-name: show;
 	animation-duration: 2s;
 	animation-iteration-count: 2;
+	animation-delay: 0.5s;
+	text-shadow: black 5px 0 15px;
 }
 
 #im{
-	height: 20rem; width: 20rem;
+	height: 15rem !important; 
+	width: 15rem;
 	margin-top: -12rem;
 	animation-timing-function: ease-in;
 	animation-name: showimg;
 	animation-duration: 2s;
 	animation-iteration-count: 2;
+	text-shadow: black 5px 0 15px;
 }
 #header {
 	top: 0;
@@ -703,7 +711,9 @@ section {
 	position: relative;
 }
 
-
+.col{
+	color: white;
+}
 
 #main-menu ul li a {
 	display: inline-block;
@@ -2971,6 +2981,11 @@ footer {
 	}
 	
 }
+@media (min-width: 1000px){
+     .col{
+		 color: #000;
+	 }
+}
 	
 /* @media (min-width: 400px max-width: 800px)a {
 	#sp{
@@ -3003,14 +3018,14 @@ footer {
 #main-menu ul li a {
     line-height: 23px;
     display: inherit;
-    border-bottom: 1px solid #968181;
+    border-bottom: 1px solid #423e3e;
     padding: 5px 20px;
 	background:transparent;
 }
 
 #main-menu ul li a:hover, #main-menu ul li.active a {
-	background:#2C2C2C !important;
-	color:rgb(245, 237, 237);
+	background:#2e2c2c !important;
+	color:rgb(247, 243, 243);
 }
 
 #main-menu ul li.active > a {
@@ -3022,12 +3037,18 @@ footer {
 .placecol{
 	color: #000 !important;
 }
+
 @keyframes show{
 	0%{
 		color: #000;
+		transform: scale(0);
+	}
+	75%{
+		transform: scale(2);
 	}
 	100%{
 		color: whitesmoke;
+		transform: scale(1);
 	}
 }
 @keyframes showimg{
