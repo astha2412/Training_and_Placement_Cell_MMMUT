@@ -2869,6 +2869,10 @@ li.comment ol.comment-sub {
     color: #FFF;
 }
 
+#mmmutMap{
+	border-style: inherit;
+}
+
 footer {
 	padding: 17px 0px 10px;
 	background: #1C1C1C;
