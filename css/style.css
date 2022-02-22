@@ -2940,6 +2940,10 @@ footer {
 
  @media (max-width: 768px) {
 	 
+	
+#contact {
+	background:url(../images/parallax/contact1.jpg) no-repeat;
+}
  .thumnail-img {
 	width:50%;
 }
