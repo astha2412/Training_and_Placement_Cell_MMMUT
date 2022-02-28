@@ -2151,6 +2151,20 @@ ul.timeline {
 /* Client Logo Carousel
 /*-----------------------------------------------------------------*/
 
+/* Logo grayscale code starts */
+
+.recruiters {
+	filter: gray; /* IE6-9 */
+	-webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+  
+  /* Disable grayscale on hover */
+  .recruiters:hover {
+	-webkit-filter: grayscale(0);
+	filter: none;
+}
+/* Logo grayscale code ends */
+
 #clients {
 	background:#FFF;
 	text-align:center;
@@ -2940,6 +2954,10 @@ footer {
 
  @media (max-width: 768px) {
 	 
+	
+#contact {
+	background:url(../images/parallax/contact1.jpg) no-repeat;
+}
  .thumnail-img {
 	width:50%;
 }
