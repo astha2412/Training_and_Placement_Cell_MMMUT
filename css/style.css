@@ -2165,7 +2165,7 @@ ul.timeline {
 .clients-carousel .item figure img {
 	display: block;
 	margin: 0 auto;
-	opacity:0.5;
+	opacity:0.75;
 }
 
 .clients-carousel .item figure img:hover {
