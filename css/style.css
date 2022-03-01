@@ -2153,13 +2153,13 @@ ul.timeline {
 
 /* Logo grayscale code starts */
 
-.recruiters {
+/*.recruiters {
 	filter: gray; /* IE6-9 */
-	-webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
-}
+/*	-webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+/*}
   
   /* Disable grayscale on hover */
-  .recruiters:hover {
+/*  .recruiters:hover {
 	-webkit-filter: grayscale(0);
 	filter: none;
 }
