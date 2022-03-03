@@ -2977,10 +2977,10 @@ footer {
 }
 
 @media (min-width: 399px) and (max-width: 620px){
-    .invitation{margin-top: 30rem;}
+    .invitation{margin-top: 40rem;}
 }
 @media (max-width: 400px){
-    .invitation{margin-top: 50rem;}
+    .invitation{margin-top: 60rem;}
 }
  @media (max-width: 550px) {
 	 
