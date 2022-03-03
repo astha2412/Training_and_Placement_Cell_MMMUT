@@ -2069,19 +2069,7 @@ ul.timeline {
 	text-transform: uppercase;
 	margin-top: 15px;
 }
-#blog img{
-	/* display: inline-block; */
-	margin: 0px 485px;
-}
 
-#blog .mes_1 .text_mes_1{
-	margin: 3px 5px;
-	color: #000;
-	
-}
-#blog .msg_para p{
-	text-align: justify;
-}
 
 /*-----------------------------------------------------------------*/
 /* Testimonial
