@@ -2963,7 +2963,25 @@ footer {
 }
 
 }
+.invite-content{
+	height: 1500px;
+}
+@media (max-width: 1051px){
+  .invite-content{
+	  height: 2000px;
+  }
+}
 
+.invitation{
+	margin-top: 10rem;
+}
+
+@media (min-width: 399px) and (max-width: 620px){
+    .invitation{margin-top: 30rem;}
+}
+@media (max-width: 400px){
+    .invitation{margin-top: 50rem;}
+}
  @media (max-width: 550px) {
 	 
 .thumnail-img {
