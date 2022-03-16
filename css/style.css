@@ -1773,7 +1773,9 @@ ul.timeline {
 /*-----------------------------------------------------------------*/
 /* Skills
 /*-----------------------------------------------------------------*/
-
+.rowy{
+	margin-left: 20%;
+}
 #skills {
 	text-align:center;
 	padding:100px 0px 0px;
@@ -1790,6 +1792,7 @@ ul.timeline {
 	width: 150px;
 	height: 120px;
 	margin-top:70px;
+	align-items: center;
 }
 
 .pie-chart canvas {
@@ -1805,9 +1808,10 @@ ul.timeline {
 	display: inline-block;
 	z-index: 2;
 	font-weight: 800;
-	font-size: 40px;
-	line-height: 46px;
+	font-size: 35px;
+	line-height: 0px;
 	color:#FFF;
+	padding-right: 2.1rem;
 }
 
 .percent:after {
@@ -2851,6 +2855,17 @@ li.comment ol.comment-sub {
 /*  Contact
 /*-----------------------------------------------------------------*/
 
+.text-block1{
+	top: 40%;
+}
+
+/* @media (max-width: 600px){
+	.text-block1{
+		top: 10%;
+		height: 80%;
+	}
+} */
+
 #contact {
 	background:url(../images/parallax/contact.jpg) no-repeat;
 }
@@ -2941,8 +2956,13 @@ footer {
 }
 
  @media (max-width: 768px) {
-	 
-	
+	.text-block1{
+		top: 10%;
+		height: 80%;
+	}	 
+	 .rowy{
+		 margin-left: 0;
+	 }
 #contact {
 	background:url(../images/parallax/contact1.jpg) no-repeat;
 }
@@ -3096,15 +3116,5 @@ footer {
 		display: none;}
 	100%{
 		display: block;
-	}
-}
-.text-block1{
-	top: 40%;
-}
-
-@media (max-width: 600px){
-	.text-block1{
-		top: 10%;
-		height: 80%;
 	}
 }
