@@ -1421,6 +1421,7 @@ ul.timeline {
 	border-radius: 100px;
 	top: 18px;
 	z-index: 20;
+	
 }
 
  .timeline .timeline-item:nth-of-type(2n):before {
