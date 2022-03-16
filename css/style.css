@@ -3098,3 +3098,13 @@ footer {
 		display: block;
 	}
 }
+.text-block1{
+	top: 40%;
+}
+
+@media (max-width: 600px){
+	.text-block1{
+		top: 10%;
+		height: 80%;
+	}
+}
