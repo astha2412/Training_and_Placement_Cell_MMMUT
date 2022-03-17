@@ -1385,7 +1385,7 @@ ul.timeline {
 	-webkit-border-radius: 3px;
 	-ms-border-radius: 3px;
 	-o-border-radius: 3px;
-	margin: 10px 0;
+	margin: 50px 0;
 	position: relative;
 	z-index: 550;
 	-webkit-transition: all 0.5s;
@@ -2855,7 +2855,33 @@ li.comment ol.comment-sub {
 /*-----------------------------------------------------------------*/
 /*  Contact
 /*-----------------------------------------------------------------*/
+.containerhh{
+	position: relative;
+	height: 750px;
+}
+.text-block1{
+	position: absolute;
+	
+	 
+	 padding-left: 2rem;
+	 padding-right: 2rem;
+	 font-size: 3rem;
+	 font-weight: 700;
+	 margin-left: 10%;
+	 margin-right: 10%;
+	 background-color: rgba(0, 0, 0, 0.61);
+	 height: 55%; 
+	 padding-top: 5%;
+	 padding-left: 5%;
+	 padding-right: 5%;
+	 
+}
 
+.text-block1 p{
+	font-family: Fredoka ;
+	font-size: 2rem;
+	color: rgb(255, 253, 253);
+} 
 .text-block1{
 	top: 40%;
 }
