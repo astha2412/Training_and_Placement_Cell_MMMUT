@@ -2193,11 +2193,11 @@ ul.timeline {
 .clients-carousel .item figure img {
 	display: block;
 	margin: 0 auto;
-	opacity:0.75;
+	opacity:1;
 }
 
 .clients-carousel .item figure img:hover {
-	opacity:1;
+	opacity:1.25;
 }
 
 
