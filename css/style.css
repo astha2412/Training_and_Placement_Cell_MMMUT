@@ -2961,6 +2961,9 @@ footer {
 		top: 10%;
 		height: 80%;
 	}	 
+	.text-block1 p{
+		font-size: 1.5rem;
+	}
 	 .rowy{
 		 margin-left: 0;
 	 }
