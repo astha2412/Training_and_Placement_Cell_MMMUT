@@ -239,7 +239,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	background:rgba(0, 0, 0, 0.4) url("../images/pattern.png") repeat;
 	position: absolute;
 	display: block;
-	width: 100%;
+	width: 0%;
 	height: 100%;
 	top: 0px;
 	left: 0px;
