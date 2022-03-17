@@ -239,7 +239,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	background:rgba(0, 0, 0, 0.4) url("../images/pattern.png") repeat;
 	position: absolute;
 	display: block;
-	width: 100%;
+	width: 0%;
 	height: 100%;
 	top: 0px;
 	left: 0px;
@@ -1039,6 +1039,32 @@ html[xmlns] .slides {
 	margin-left: 80px;
 }
 
+/*-----------------------------------------------------------------*/
+/* Divider
+/*-----------------------------------------------------------------*/
+.wrapper
+{
+	padding-bottom: 90px;
+}
+
+.divider
+{
+	position: relative;
+	margin-top: 90px;
+	height: 1px;
+}
+
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+}
 
 /*-----------------------------------------------------------------*/
 /* Fun Facs
@@ -1631,12 +1657,12 @@ ul.timeline {
 /*-----------------------------------------------------------------*/
 
 #cta {
-	background:url(../images/parallax/cta.jpg) no-repeat;
+	background:url(../images/parallax/cta22.webp) no-repeat;
 	padding:130px 0px 130px;
 }
 
 #cta h2 {
-    color: #FFF;
+    color: rgb(32, 199, 149);
     font-size: 33px;
     margin-bottom: 36px;
     font-weight: 600;
@@ -1971,7 +1997,7 @@ ul.timeline {
 
 
 #video {
-	background:url(../images/parallax/cta.jpg) no-repeat;
+	background:url(../images/parallax/videoback.png) no-repeat;
 }
 
 .video-caption-main {
@@ -2172,11 +2198,11 @@ ul.timeline {
 .clients-carousel .item figure img {
 	display: block;
 	margin: 0 auto;
-	opacity:0.75;
+	opacity:1;
 }
 
 .clients-carousel .item figure img:hover {
-	opacity:1;
+	opacity:1.25;
 }
 
 
@@ -2894,7 +2920,7 @@ li.comment ol.comment-sub {
 } */
 
 #contact {
-	background:url(../images/parallax/contact.jpg) no-repeat;
+	background:url(../images/parallax/hhhhhhh.jpg) no-repeat;
 }
 
 .contact-form {
