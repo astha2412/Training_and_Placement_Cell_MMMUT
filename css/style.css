@@ -1656,12 +1656,12 @@ ul.timeline {
 /*-----------------------------------------------------------------*/
 
 #cta {
-	background:url(../images/parallax/cta.jpg) no-repeat;
+	background:url(../images/parallax/cta22.webp) no-repeat;
 	padding:130px 0px 130px;
 }
 
 #cta h2 {
-    color: #FFF;
+    color: rgb(32, 199, 149);
     font-size: 33px;
     margin-bottom: 36px;
     font-weight: 600;
@@ -1992,7 +1992,7 @@ ul.timeline {
 
 
 #video {
-	background:url(../images/parallax/cta.jpg) no-repeat;
+	background:url(../images/parallax/videoback.png) no-repeat;
 }
 
 .video-caption-main {
@@ -2878,7 +2878,7 @@ li.comment ol.comment-sub {
 /*-----------------------------------------------------------------*/
 
 #contact {
-	background:url(../images/parallax/contact.jpg) no-repeat;
+	background:url(../images/parallax/hhhhhhh.jpg) no-repeat;
 }
 
 .contact-form {
