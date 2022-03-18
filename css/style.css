@@ -1411,7 +1411,7 @@ ul.timeline {
 	-webkit-border-radius: 3px;
 	-ms-border-radius: 3px;
 	-o-border-radius: 3px;
-	margin: 10px 0;
+	margin: 50px 0;
 	position: relative;
 	z-index: 550;
 	-webkit-transition: all 0.5s;
@@ -1447,6 +1447,7 @@ ul.timeline {
 	border-radius: 100px;
 	top: 18px;
 	z-index: 20;
+	
 }
 
  .timeline .timeline-item:nth-of-type(2n):before {
@@ -1799,7 +1800,9 @@ ul.timeline {
 /*-----------------------------------------------------------------*/
 /* Skills
 /*-----------------------------------------------------------------*/
-
+.rowy{
+	margin-left: 20%;
+}
 #skills {
 	text-align:center;
 	padding:100px 0px 0px;
@@ -1816,6 +1819,7 @@ ul.timeline {
 	width: 150px;
 	height: 120px;
 	margin-top:70px;
+	align-items: center;
 }
 
 .pie-chart canvas {
@@ -1831,9 +1835,10 @@ ul.timeline {
 	display: inline-block;
 	z-index: 2;
 	font-weight: 800;
-	font-size: 40px;
-	line-height: 46px;
+	font-size: 35px;
+	line-height: 0px;
 	color:#FFF;
+	padding-right: 2.1rem;
 }
 
 .percent:after {
@@ -2876,6 +2881,43 @@ li.comment ol.comment-sub {
 /*-----------------------------------------------------------------*/
 /*  Contact
 /*-----------------------------------------------------------------*/
+.containerhh{
+	position: relative;
+	height: 750px;
+}
+.text-block1{
+	position: absolute;
+	
+	 
+	 padding-left: 2rem;
+	 padding-right: 2rem;
+	 font-size: 3rem;
+	 font-weight: 700;
+	 margin-left: 10%;
+	 margin-right: 10%;
+	 background-color: rgba(0, 0, 0, 0.61);
+	 height: 55%; 
+	 padding-top: 5%;
+	 padding-left: 5%;
+	 padding-right: 5%;
+	 
+}
+
+.text-block1 p{
+	font-family: Fredoka ;
+	font-size: 2rem;
+	color: rgb(255, 253, 253);
+} 
+.text-block1{
+	top: 40%;
+}
+
+/* @media (max-width: 600px){
+	.text-block1{
+		top: 10%;
+		height: 80%;
+	}
+} */
 
 #contact {
 	background:url(../images/parallax/hhhhhhh.jpg) no-repeat;
@@ -2967,8 +3009,16 @@ footer {
 }
 
  @media (max-width: 768px) {
-	 
-	
+	.text-block1{
+		top: 10%;
+		height: 80%;
+	}	 
+	.text-block1 p{
+		font-size: 1.5rem;
+	}
+	 .rowy{
+		 margin-left: 0;
+	 }
 #contact {
 	background:url(../images/parallax/contact1.jpg) no-repeat;
 }
@@ -3122,15 +3172,5 @@ footer {
 		display: none;}
 	100%{
 		display: block;
-	}
-}
-.text-block1{
-	top: 40%;
-}
-
-@media (max-width: 600px){
-	.text-block1{
-		top: 10%;
-		height: 80%;
 	}
 }
