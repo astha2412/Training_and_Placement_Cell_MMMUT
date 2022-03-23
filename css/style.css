@@ -2878,6 +2878,23 @@ li.comment ol.comment-sub {
 .pagenation li.active a, .pagenation li:hover a {
 	color: #F0353A;
 }
+/*-----------------------------------------------------------------*/
+/* invitation
+/*-----------------------------------------------------------------*/
+
+#sp1{
+	font-weight: 700; font-size: 3rem;
+}
+#sp2{
+	font-weight: 700; font-size: 2.5rem;
+}
+#sp3{
+	font-weight: 400;
+	font-size: 2.5rem;
+}
+#sp4{
+	font-weight: 700; font-size: 3rem;
+}
 
 /*-----------------------------------------------------------------*/
 /*  Contact
@@ -3046,6 +3063,19 @@ footer {
 }
 @media (max-width: 400px){
     .invitation{margin-top: 60rem;}
+	#sp1{
+		font-weight: 400; font-size: 1.7rem;
+	}
+	#sp2{
+		font-weight: 400; font-size: 1rem;
+	}
+	#sp3{
+		font-weight: 200;
+		font-size: 1rem;
+	}
+	#sp4{
+		font-weight: 400; font-size: 1.7rem;
+	}
 }
  @media (max-width: 550px) {
 	 
