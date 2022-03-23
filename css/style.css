@@ -45,8 +45,9 @@ p {
 	font-weight: 400;
 }
 a {
-	color:rgb(35 35 35 / 90%);
-	background:none;
+	/* color:rgb(35 35 35 / 90%); */
+	color: white;
+	background: none;
 	text-decoration: none;
 	outline: none;
 }
