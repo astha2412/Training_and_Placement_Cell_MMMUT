@@ -45,7 +45,7 @@ p {
 	font-weight: 400;
 }
 a {
-	color:#7EC13F;
+	color:rgb(35 35 35 / 90%);
 	background:none;
 	text-decoration: none;
 	outline: none;
@@ -314,7 +314,7 @@ section {
 
 .btn-green:hover, .btn-green:focus {
 	color: #FFF;
-	background:transparent;
+	background:#cf151500;
 	border-color: #FFF;
 }
 
@@ -2920,7 +2920,7 @@ li.comment ol.comment-sub {
 } */
 
 #contact {
-	background:url(../images/parallax/hhhhhhh.jpg) no-repeat;
+	background:url(../images/parallax/back.jpeg) no-repeat;
 }
 
 .contact-form {
@@ -3020,7 +3020,7 @@ footer {
 		 margin-left: 0;
 	 }
 #contact {
-	background:url(../images/parallax/contact1.jpg) no-repeat;
+	background:url(../images/parallax/back.jpeg) no-repeat;
 }
  .thumnail-img {
 	width:50%;
