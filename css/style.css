@@ -188,7 +188,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 }
 
 .title-box.white h2.title {
-	color:#FFF;
+	color: black;
 }
 
 .title-box.text-center h2:before {
@@ -2938,7 +2938,7 @@ li.comment ol.comment-sub {
 } */
 
 #contact {
-	background:url(../images/parallax/back.jpeg) no-repeat;
+	background:url(../images/parallax/back.jpg) no-repeat;
 }
 
 .contact-form {
@@ -2954,7 +2954,7 @@ li.comment ol.comment-sub {
     font-size: 17px;
     line-height: 13px;
     margin-bottom: 16px;
-    color: #FFF;
+    color: black;
 }
 
 #mmmutMap{
