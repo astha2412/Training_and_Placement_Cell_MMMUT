@@ -1,15 +1,12 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic);
-/*  */
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;1,400&display=swap);
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic);
+
 
 html, body {
 	height: 100%;
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	font-family: 'Montserrat', sans-serif;
+	font-family: Montserrat, sans-serif;
 	/* font-size: 14px; */
 	font-size: 65%;
 	line-height: 1;
@@ -23,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
 	margin: 0px 0px 10px;
 	color: #272727;
-	font-family: "Montserrat", sans-serif;
+	font-family: Montserrat, sans-serif;
 	text-transform: uppercase;
 }
 
@@ -40,7 +37,7 @@ h3 {
 
 p {
 	margin-bottom: 22px;
-	font-family: "Montserrat", sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-size:14px;
 	line-height: 25px;
 	color: #727272;
@@ -645,7 +642,7 @@ section {
 /*-----------------------------------------------------------------*/
 #text1{
 	font-size: 4rem; font-weight:1000; color: rgb(232, 232, 241);
-	font-family: "Secular One";
+	font-family: 'Montserrat', sans-serif;
 	animation-timing-function: ease-in;
 	animation-name: show;
 	animation-duration: 2s;
@@ -657,7 +654,7 @@ section {
 #text2{
 	font-size: 3rem; font-weight:1000; color: aliceblue;
 	align-self: center;
-	font-family: "Secular One";
+	font-family: 'Montserrat', sans-serif;
 	animation-timing-function: ease-in;
 	animation-name: show;
 	animation-duration: 2s;
@@ -692,13 +689,15 @@ section {
 	width: 100%;
 	position: fixed;
 	z-index: 99999;
+	justify-content: center;
+	align-items: center;
 }
 
 #main-menu {
 	z-index: 300;
 	visibility:visible;
- align-items: center; 
- justify-content: center;
+	justify-content: center;
+	align-items: center;
 }
 
 .menu-bg {
@@ -709,11 +708,15 @@ section {
 	display: block;
 	width: 100%;
 	text-align: center;
+	justify-content: center;
+	align-items: center;
 }
 
 #main-menu ul li {
 	display: inline-block;
 	position: relative;
+	justify-content: center;
+	align-items: center;
 }
 
 .col{
@@ -721,6 +724,7 @@ section {
 }
 
 #main-menu ul li a {
+	text-decoration: none;
 	display: inline-block;
 	padding:6px 10px;
 	line-height: 60px;
@@ -729,6 +733,8 @@ section {
 	font-size: 15px;
 	text-transform: uppercase;
 	transition: all 0.25s ease 0s;
+	justify-content: center;
+	align-items: center;
 }
 
 #main-menu ul li a:hover {
@@ -779,7 +785,7 @@ section {
 
 .home {
 	overflow: hidden;
-	font-family: "Raleway", sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .home .slides {
@@ -1811,7 +1817,7 @@ ul.timeline {
 #skills {
 	text-align:center;
 	padding:100px 0px 0px;
-	background:url(../images/bg-demo.jpg) no-repeat;
+	background-color: #5394e9;
 }
 
 .pie-chart-main {
@@ -3148,10 +3154,7 @@ footer {
 } */
 
 
- .navbar-right {
- float:none !important;
- margin-right:0px !important;
-}
+
 
  .clear-toggle {
  display:block;
@@ -3164,6 +3167,8 @@ footer {
  #main-menu ul li {
  display: block;
  text-align: left;
+ justify-content: center;
+	align-items: center;
 }
 
 #main-menu ul li a {
@@ -3172,6 +3177,9 @@ footer {
     border-bottom: 1px solid #423e3e;
     padding: 5px 20px;
 	background:transparent;
+	justify-content: center;
+	align-items: center;
+	
 }
 
 #main-menu ul li a:hover, #main-menu ul li.active a {
@@ -3209,3 +3217,6 @@ footer {
 		display: block;
 	}
 }
+*{
+	font-family: Montserrat;
+  }
