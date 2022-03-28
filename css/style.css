@@ -1,4 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic);
+/*  */
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;1,400&display=swap);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic);
 
@@ -7,7 +9,7 @@ html, body {
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	/* font-size: 14px; */
 	font-size: 65%;
 	line-height: 1;
@@ -21,13 +23,13 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
 	margin: 0px 0px 10px;
 	color: #272727;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	text-transform: uppercase;
 }
 
 h4 {
 	font-size: 16px;
-	font-family: "Raleway", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	font-weight: 700;
 	line-height: 22px;
 }
@@ -38,7 +40,7 @@ h3 {
 
 p {
 	margin-bottom: 22px;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	font-size:14px;
 	line-height: 25px;
 	color: #727272;
@@ -695,6 +697,8 @@ section {
 #main-menu {
 	z-index: 300;
 	visibility:visible;
+ align-items: center; 
+ justify-content: center;
 }
 
 .menu-bg {
@@ -3013,7 +3017,7 @@ footer {
  @media (min-width: 992px) and (max-width: 1024px) {
 	 
 .navbar-right {
-	float:none !important;
+	float:center !important;
 }
 
 }
